@@ -1,0 +1,23 @@
+{
+  "annotations": {
+    "changelogDate": "20240202132323"
+  },
+  "applications": "*",
+  "entityTableName": "category",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "categoryName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "Category",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
